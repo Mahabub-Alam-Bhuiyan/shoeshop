@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+hr{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.content-heading{
+    margin-bottom: 40px !important;
+}
+
 .btn {
     background-color: #82f4d3;
     padding: 10px;
@@ -126,12 +134,17 @@
     list-style: none;
     text-align: center;
     background-color: black;
-    color: white !important;
+    color: white ;
     width: 30px;
     height: 30px;
     border-radius: 30px;
     padding-top: 3px;
     margin-top: 10px;
+    cursor: pointer;
+}
+.banner-bottom ul li:hover{
+    color: #82f4d3;
+    background-color: white;
 }
 
 
@@ -179,6 +192,161 @@
     right: 3%;
     background-color: transparent;
     border: 2px solid #82f4d3;
+}
+
+/*Popular Item Area*/
+.popular{
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+.popular-item{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f1f0f0;
+    padding: 20px;
+}
+.popular-item img{
+    margin: 50% 0 0 50%;
+    transform: translate(-50% , -50%);
+}
+.overlay{
+    background-color: rgba(130, 244, 211,0.6);
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.popular-item:hover .overlay{
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+
+}
+
+.btn-overlay{
+    position: absolute;
+    padding: 10px;
+    color: #FFFFFF;
+    border:2px solid #fff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+    margin: 50% 0 0 50%;
+    transform: translate(-50% , -50%);
+}
+.btn-overlay:hover{
+    color: #FFFFFF;
+}
+.popular h1{
+    margin-bottom: 30px;
+}
+.popular-item-text{
+    margin-top: 30px;
+    padding:0 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #a0a0a0;
+}
+.popular-item-text p:first-child{
+    color: black !important;
+    margin-bottom: 0 !important;
+}
+.popular-item-text p:last-child{
+    margin-right: 30px;
+    margin-bottom: 0 !important;
+}
+.popular h4{
+    color: #a0a0a0;
+    padding: 5px ;
+}
+
+
+/*Model Area*/
+.model{
+    padding:0px 0px 150px 0;
+}
+.model-pic{
+    position: relative;
+    max-width: 500px;
+    z-index: 999;
+    margin-left: auto;
+}
+.model-pic img{
+    background-color: #f3f5f7;
+    padding: 5px;
+}
+.model-pic::before{
+    content: " ";
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    background-color: #82f4d3;
+    top: 50%;
+    left: 60%;
+    z-index: -1;
+}
+
+/*Post Area*/
+
+
+.carousel-item{
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+.post-text{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.left-side img{
+    transform: translateY(-50%);
+}
+.right-side img{
+    margin-right: 55px;
+}
+
+
+/*Blog Area*/
+
+.blog{
+    padding: 80px 0 197px 0;
+}
+.blog-heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.blog-item-pic{
+    position: relative;
+    max-width: 500px;
+    z-index: 999;
+    margin-left: auto;
+}
+.blog-item-pic img{
+    background-color: #f3f5f7;
+    padding: 5px;
+}
+.blog-item-text{
+    margin-left: 40px;
+}
+.blog-item-text p{
+    max-width: 500px;
+    word-break: break-all;
+}
+.blog-item-pic::before{
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    background-color: #82f4d3;
+    top: 60%;
+    left: 66%;
+    z-index: -1;
 }
 
 
