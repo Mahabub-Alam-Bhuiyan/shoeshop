@@ -1,0 +1,192 @@
+@media screen and (max-width: 420px) {
+    .popular-item img {
+        margin: 50% 0 0 50% !important;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 767px) {
+
+    .btn-1 {
+        position: relative;
+        width: 300px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #banner img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .banner-bottom p {
+        writing-mode: horizontal-tb;
+        transform: rotateZ(0deg);
+        text-align: center;
+    }
+
+    .banner-bottom {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .banner-bottom ul {
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .banner-bottom ul li {
+        margin: 0 5px;
+    }
+
+    #banner2 {
+        padding: 30px 0;
+    }
+
+    .content-heading {
+        margin-bottom: 30px !important;
+    }
+
+    .popular {
+        padding-bottom: 40px;
+    }
+
+    .popular-item img {
+        margin: 25% 0 0 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .popular-item-text {
+        margin-top: 15px;
+    }
+
+    .text-section {
+        margin-top: 40%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+    }
+
+    .model {
+        padding: 0px 0px 30px 0;
+    }
+
+    .model-pic::before {
+        display: none;
+    }
+
+    .carousel-item {
+        padding: 30px 0;
+        background-color: #f8f8f8;
+    }
+
+    .post-text p {
+        font-size: 15px;
+        word-break: break-all;
+    }
+
+    .blog {
+        padding: 30px 0 220px 0;
+    }
+
+    .blog-item-pic img {
+        max-width: 90%;
+        height: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .blog-item-pic::before {
+        display: none;
+    }
+
+    .blog-item-pic::after {
+        display: none;
+    }
+
+    .carousel-control-prev-icon i {
+        margin-left: -30%;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+
+    .carousel-control-next-icon i {
+        right: 20%;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+
+    #carouselExampleIndicators1 {
+        margin-bottom: 30px;
+    }
+
+    .blog {
+        padding: 30px 0 80px 0;
+    }
+
+    .blog-heading {
+        margin-bottom: 30px;
+    }
+
+    .blog-item-text {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .carousel-indicators {
+        margin-left: 50%;
+        padding-bottom: 5px;
+        width: 100px;
+        transform: translateX(-50%);
+    }
+
+    .num {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: -8%;
+        font-size: 20px;
+    }
+
+    .fot1,
+    .fot2,
+    .fot3,
+    .fot4 {
+        margin-bottom: 20px;
+
+    }
+
+    .fot2 ul,
+    .fot3 ul {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .footer2 .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-side img {
+        transform: translateY(-50%);
+        display: none;
+    }
+
+    .right-side img {
+        margin-right: 55px;
+        display: none;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .btn-overlay {
+        margin: 28% 0 0 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fot1,
+    .fot2,
+    .fot3,
+    .fot4 {
+        margin-bottom: 30px;
+
+    }
+}
