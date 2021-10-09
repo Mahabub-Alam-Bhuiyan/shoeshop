@@ -211,6 +211,7 @@ hr {
 }
 
 .popular-item img {
+    width: 150px;
     margin: 50% 0 0 50%;
     transform: translate(-50%, -50%);
 }
@@ -389,12 +390,13 @@ hr {
     max-width: 500px;
     word-break: break-all;
 }
-
-.carousel-control-prev-icon i {
+.arrow{
     position: absolute;
+    margin-left: 2200%;
+    margin-top: 10px;
+}
+.carousel-control-prev-icon i {
     color: black !important;
-    margin-left: 405%;
-    margin-top: 113%;
     font-size: 20px;
 }
 
@@ -403,10 +405,7 @@ hr {
 }
 
 .carousel-control-next-icon i {
-    position: absolute;
     color: black !important;
-    right: 198%;
-    margin-top: 113%;
     font-size: 20px;
 }
 
@@ -415,6 +414,7 @@ hr {
 }
 
 .carousel-indicators {
+    position: absolute;
     margin-left: 56%;
     margin-bottom: 6%;
     padding-bottom: 5px;
@@ -433,12 +433,9 @@ hr {
 }
 
 .num {
-    position: absolute;
     color: #000000;
     width: 50px;
     text-align: center;
-    left: 65%;
-    margin-top: -8%;
     font-size: 20px;
 }
 
