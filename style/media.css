@@ -7,6 +7,9 @@
 
 /************ For Mobile device *********/
 @media (max-width: 576px) {
+    #navbarToggleExternalContent{
+        right: 20px;
+    }
     #banner img {
         width: 100%;
         margin-top: 20px;
@@ -113,18 +116,6 @@
         display: none;
     }
 
-    /*.carousel-control-prev-icon i {*/
-    /*    margin-left: -30%;*/
-    /*    margin-top: 135%;*/
-    /*    font-size: 15px;*/
-    /*}*/
-
-    /*.carousel-control-next-icon i {*/
-    /*    right: 20%;*/
-    /*    margin-top: 135%;*/
-    /*    font-size: 15px;*/
-    /*}*/
-
     #carouselExampleIndicators1 {
         margin-bottom: 30px;
     }
@@ -181,7 +172,9 @@
 /************ For Large Mobile device *********/
 
 @media (min-width: 576px) and (max-width: 767px){
-
+    #navbarToggleExternalContent{
+        right: 8%;
+    }
 
     .btn-overlay {
         margin: 28% 0 0 50%;
@@ -207,6 +200,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #navbarToggleExternalContent{
+        right: 8%;
+    }
     #banner{
         padding: 50px 0;
     }
@@ -279,6 +275,9 @@
 /************ For Small Large device *********/
 
 @media (min-width: 992px) and (max-width: 1200px) {
+    #navbarToggleExternalContent{
+        right: 5%;
+    }
     .banner-bottom {
         margin: -30% 5% 0;
     }
@@ -297,6 +296,9 @@
 
 
 @media (min-width: 1201px) and (max-width: 1600px){
+    #navbarToggleExternalContent{
+        right: 5%;
+    }
     #banner img {
         max-width: 50%;
         margin-top: -10%;
